@@ -65,3 +65,4 @@ variable "instance_name" {
   default     = "khang-Jumphost-server"
 }
 
+#
