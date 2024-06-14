@@ -64,4 +64,4 @@ variable "instance_name" {
   type        = string
   default     = "khang-Jumphost-server"
 }
-#
+
