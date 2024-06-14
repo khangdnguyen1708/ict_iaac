@@ -44,13 +44,13 @@ variable "iam-role" {
 variable "ami_id" {
   description = "khang-AMI ID for the EC2 instance"
   type        = string
-  default     = "ami-04b70fa74e45c3917" // Replace with the latest AMI ID for your region
+  default     = "ami-0eac975a54dfee8cb" // Replace with the latest AMI ID for your region
 }
 
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t4g.large"
+  default     = "t4g.medium"
 }
 
 variable "key_name" {
